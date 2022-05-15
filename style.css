@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+ --orange: hsl(25, 97%, 53%);
+ --White: hsl(0, 0%, 100%);
+ --Light-Grey: hsl(217, 12%, 63%);
+ --Medium-Grey: hsl(216, 12%, 54%);
+ --Dark-Blue: hsl(213, 19%, 18%);
+ --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Very-Dark-Blue);
+  height: 100vh;
+}
+
+.card {
+  background: linear-gradient(
+    to bottom,
+    rgb(37, 45, 55, 0.6),
+    rgb(37, 45, 55, 0.4)
+  );
+  border-radius: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 25rem;
+  height: auto;
+  padding: 1.25rem 1.5rem;
+}
+
+.icon {
+  background-color: var(--Dark-Blue);
+  border-radius: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0.6rem;
+  width: 10%;
+}
+
+.text {
+ text-align: left;
+}
+
+.text-thank-you {
+  text-align: center;
+ }
+
+.text h1, .text-thank-you h1 {
+  color: var(--White);
+  font-size: 1.8rem;
+  margin-bottom: 0.9rem;
+  margin-inline: 1rem;
+}
+
+.text p,.text-thank-you p {
+  color: var(--Light-Grey);
+  line-height: 1.6;
+  margin: 0.9rem;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 0.6rem;
+}
+
+.btn-container button {
+  background-color:var(--Dark-Blue);
+  color: var(--White);
+  border: none;
+  border-radius: 50%;
+  margin: 0.3rem;
+  padding: 0.5rem 1rem;
+  height: 2.5rem;
+}
+
+.btn-container button:hover {
+  background-color: var(--Light-Grey);
+  color: var(--White);
+}
+
+.btn-container button:focus {
+  background-color: var(--orange);
+  cursor: pointer;
+}
+
+.submit {
+  background-color: var(--orange);
+  border: none;
+  border-radius: 1.25rem;
+  color: var(--White);
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: 0.5s;
+  margin: 1rem 0;
+  padding: 0.7rem 1.25rem;
+  width: 100%;
+}
+
+.submit:hover {
+  color: var(--orange);
+  background-color: var(--White);
+}
