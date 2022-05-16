@@ -15,6 +15,6 @@
 
 ### Author: Lipeh Fama
 My links:
-<p><a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U">Front end Mentor Profile</a></p>
+<p><a href="https://www.frontendmentor.io/profile/FelipeFama">Front end Mentor Profile</a></p>
 <p><a href="https://github.com/FelipeFama">My Github</a></p>
 
